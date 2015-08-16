@@ -1,18 +1,24 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "ZMR250 Custom",
+    "esc": "RCTimer/Mini-ESC40A",
+    "motor": "Cobra/CM-2208-2000kv",
+    "fc": "AbuseMark/Acro-Naze32",
+    "prop": [
+      "HQProp/6x4.5-CF-DD",
+      "Surveilzone/DalProp-6x4"
+    ],
+    "arm": "5mm Special",
+    "battery": [
+      "mylipo.de 4s1800mAh 35/70C"
+    ],
+    "osd": "QuadRevo PowerOSD",
+    "receiver": "Futaba SBUS R6203SB",
+    "flightcam": "RunCam PZ0420M Magnesiumgehäuse",
+    "hqcam": "SpyTec/Mobius-Action-Cam-Wide-Angle",
+    "videotx": "Hawkeye/5.8-GHz-32-channel-600mW-Video-Transmitter",
+    "blackbox": "",
+    "voltagereg": "Hawkeye 5V Output to Naze32"
+  },
+  "version": 1
 }
